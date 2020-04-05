@@ -10,6 +10,7 @@ export class RegisterComponent implements OnInit, OnDestroy, OnChanges {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   ngOnDestroy(): void {
