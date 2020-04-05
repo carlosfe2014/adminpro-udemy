@@ -1,18 +1,22 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnChanges, OnDestroy, OnInit, SimpleChanges} from '@angular/core';
 
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
   styleUrls: ['../login/login.component.css']
 })
-export class RegisterComponent implements OnInit {
+export class RegisterComponent implements OnInit, OnDestroy, OnChanges {
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  ngOnDestroy(): void {
 
   }
-  carlos(){
+
+  ngOnChanges(changes: SimpleChanges): void {
   }
 
 }
