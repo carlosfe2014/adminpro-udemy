@@ -19,4 +19,8 @@ export class RegisterComponent implements OnInit, OnDestroy, OnChanges {
   ngOnChanges(changes: SimpleChanges): void {
   }
 
+  prueba(){
+
+  }
+
 }
