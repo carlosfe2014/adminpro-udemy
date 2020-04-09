@@ -11,6 +11,9 @@ import {PagesComponent} from './pages.component';
 import {FormsModule} from '@angular/forms';
 import {IncrementadorComponent} from '../components/incrementador/incrementador.component';
 import {GraficoDonaComponent} from '../components/grafico-dona/grafico-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import {StyleClickDirective} from './directives/style-click.directive';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +22,9 @@ import {GraficoDonaComponent} from '../components/grafico-dona/grafico-dona.comp
       Grafica1Component,
       PagesComponent,
       IncrementadorComponent,
-      GraficoDonaComponent
+      GraficoDonaComponent,
+      AccountSettingsComponent,
+      StyleClickDirective
   ],
   imports: [
     SharedModule,

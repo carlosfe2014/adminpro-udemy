@@ -1,4 +1,7 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
+
+declare function initThemePlugins();
 
 @Component({
   selector: 'app-login',
@@ -7,12 +10,19 @@ import {Component, OnDestroy, OnInit} from '@angular/core';
 })
 export class LoginComponent implements OnInit, OnDestroy {
 
-  constructor() { }
+  constructor(
+      private router: Router
+  ) { }
 
   ngOnInit(): void {
+      initThemePlugins();
   }
 
   ngOnDestroy(): void {
+  }
+
+  ingresar(){
+    this.router.navigate(['/dashboard']);
   }
 
 }
