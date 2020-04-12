@@ -13,6 +13,8 @@ import {IncrementadorComponent} from '../components/incrementador/incrementador.
 import {GraficoDonaComponent} from '../components/grafico-dona/grafico-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import {StyleClickDirective} from './directives/style-click.directive';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import {StyleClickDirective} from './directives/style-click.directive';
       IncrementadorComponent,
       GraficoDonaComponent,
       AccountSettingsComponent,
-      StyleClickDirective
+      StyleClickDirective,
+      PromesasComponent,
+      RxjsComponent
   ],
   imports: [
     SharedModule,
